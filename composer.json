@@ -9,8 +9,7 @@
     "license": "MIT",
     "require": {
         "php": ">=8.2",
-        "workerman/workerman": ">=4.0.20",
-        "nesbot/carbon": "^2.72"
+        "workerman/workerman": ">=4.0.20"
     },
     "autoload": {
         "psr-4": {
