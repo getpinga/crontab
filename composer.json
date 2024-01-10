@@ -1,0 +1,20 @@
+{
+    "name": "pinga/crontab",
+    "type": "library",
+    "keywords": [
+        "crontab"
+    ],
+    "description": "A crontab written in PHP based on workerman",
+    "homepage": "https://github.com/getpinga/crontab",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2",
+        "workerman/workerman": ">=4.0.20",
+        "nesbot/carbon": "^2.72"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pinga\\Crontab\\": "./src"
+        }
+    }
+}
